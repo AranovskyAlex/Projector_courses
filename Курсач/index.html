@@ -1,299 +1,258 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Курсач</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid px-0">
-            <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse flex-grow-0"
-              id="navbarNavDropdown">
-              <ul class="navbar-nav navbar-nav-primary">
-                <li class="nav-item"><a href="*" class="nav-link active ps-0">Каталог</a></li>
-                <li class="nav-item"><a href="test.html" class="nav-link">Знижки</a></li>
-                <li class="nav-item"><a href="*" class="nav-link">Блог</a></li>
-                <li class="nav-item"><a href="*" class="nav-link">Про нас</a></li>
-                <li class="nav-item dropdown">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Курсач</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-0">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+            <ul class="navbar-nav navbar-nav-primary">
+              <li class="nav-item"><a href="*" class="nav-link active ps-0">Каталог</a></li>
+              <li class="nav-item"><a href="test.html" class="nav-link">Знижки</a></li>
+              <li class="nav-item"><a href="*" class="nav-link">Блог</a></li>
+              <li class="nav-item"><a href="*" class="nav-link">Про нас</a></li>
+              <li class="nav-item dropdown">
+            </ul>
+          </div>
+          <div>
+            <a href="*"><img src="img/logo.jpg" width="184" height="48" alt="logo"></a>
+          </div>
+          <div class="d-flex flex-row align-items-center">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  UA
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">UA</a></li>
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">RU</a></li>
                 </ul>
-              </div>
-              <div>
-                <a href="*"><img src="img/logo.jpg" width="184" height="48"
-                    alt="logo"></a>
-              </div>
-              <div class="d-flex flex-row align-items-center">
-                <ul class="navbar-nav">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      UA
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">UA</a></li>
-                      <li><a class="dropdown-item" href="#">EN</a></li>
-                      <li><a class="dropdown-item" href="#">RU</a></li>
-                    </ul>
-                  </li>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  ₴
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">₴</a></li>
+                  <li><a class="dropdown-item" href="#">$</a></li>
+                  <li><a class="dropdown-item" href="#">€</a></li>
                 </ul>
-                <ul class="navbar-nav">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button"
-                      data-bs-toggle="dropdown" aria-expanded="false">
-                      ₴
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">₴</a></li>
-                      <li><a class="dropdown-item" href="#">$</a></li>
-                      <li><a class="dropdown-item" href="#">€</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <a href="tel:">+38 097 888 92 92</a>
-                <a href="*">
-                  <svg width="25" height="25" viewBox="0 0 25 25"
-                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M11.5 20C6.79231 20 3 16.2077 3 11.5C3 6.79231
+              </li>
+            </ul>
+            <a href="tel:">+38 097 888 92 92</a>
+            <a href="*">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.5 20C6.79231 20 3 16.2077 3 11.5C3 6.79231
                       6.79231 3 11.5 3C16.2077 3 20 6.79231 20 11.5C20 16.2077
                       16.2077 20 11.5 20ZM11.5 4.30769C7.51154 4.30769 4.30769
                       7.51154 4.30769 11.5C4.30769 15.4885 7.51154 18.6923 11.5
                       18.6923C15.4885 18.6923 18.6923 15.4885 18.6923
-                      11.5C18.6923 7.51154 15.4885 4.30769 11.5 4.30769Z"
-                      fill="black"/>
-                      <path d="M16.9523 16L23 22.0477L22.0477 23L16
-                        16.9523L16.9523 16Z" fill="black"/>
-                      </svg>
-                    </a>
-                    <a href="*">
-                      <svg width="25" height="25" viewBox="0 0 25 25"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.25 6.80801C9.25 -0.935999 16.75 -0.936006
+                      11.5C18.6923 7.51154 15.4885 4.30769 11.5 4.30769Z" fill="black" />
+                <path d="M16.9523 16L23 22.0477L22.0477 23L16
+                        16.9523L16.9523 16Z" fill="black" />
+              </svg>
+            </a>
+            <a href="*">
+              <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.25 6.80801C9.25 -0.935999 16.75 -0.936006
                           16.75 6.80801M5 23H21C21.5523 23 22 22.5523 22
                           22V7.80801C22 7.25572 21.5523 6.80801 21
                           6.80801H5C4.44772 6.80801 4 7.25572 4 7.80801V22C4
-                          22.5523 4.44772 23 5 23Z" stroke="black"/>
-                          <circle cx="19" cy="19" r="6" fill="#DA1F39"/>
-                            <path d="M19.5596 14.8516V22H18.6562V15.9795L16.835
-                              16.6436V15.8281L19.418 14.8516H19.5596Z"
-                              fill="white"/>
-                            </svg>
-                          </a>
-                        </div>
-                      </div>
-                    </nav>
+                          22.5523 4.44772 23 5 23Z" stroke="black" />
+                <circle cx="19" cy="19" r="6" fill="#DA1F39" />
+                <path d="M19.5596 14.8516V22H18.6562V15.9795L16.835
+                              16.6436V15.8281L19.418 14.8516H19.5596Z" fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
 
-                    <div aria-label="breadcrumb" style="--bs-breadcrumb-divider:
+      <div aria-label="breadcrumb" style="--bs-breadcrumb-divider:
                       '—';">
-                      <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Головна</a></li>
-                        <li class="breadcrumb-item"><a href="#">Жінкам</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Жіночі
-                          вишиванки</li>
-                      </ol>
-                    </div>
-                  </header>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Головна</a></li>
+          <li class="breadcrumb-item"><a href="#">Жінкам</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Жіночі
+            вишиванки</li>
+        </ol>
+      </div>
+    </header>
 
 
-                  <div class="row">
-                    <div class="col-2">
-                      <div>
-                        <div>
-                          <a data-bs-toggle="collapse" href="#collapseExample"
-                            role="button" aria-expanded="false"
-                            aria-controls="collapseExample">
-                            Розмір
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                              height="16" fill="currentColor" class="bi
+    <div class="row">
+      <div class="col-2">
+        <div>
+          <div>
+            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+              aria-controls="collapseExample">
+              Розмір
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                               bi-caret-down" viewBox="0 0 16 16">
-                              <path d="M3.204 5h9.592L8 10.481 3.204
+                <path d="M3.204 5h9.592L8 10.481 3.204
                                 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506
                                 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                1 0 0 0-.753 1.659z"/>
-                              </svg>
-                            </a>
-                          </div>
-                          <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
-                              <div class="form-check">
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  32 | XXS (53)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  34 | XS (60)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  36 | S (60)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  38 | M (60)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  40 | L (60)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  42 | XL (58)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  46 | XXL (13)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                                <label class="form-check-label"
-                                  for="flexCheckDefault">
-                                  48 | XХXL (4)
-                                </label>
-                                <input class="form-check-input" type="checkbox"
-                                  value="" id="flexCheckDefault">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div>
-                          <div>
-                            <a data-bs-toggle="collapse" href="#colorFilter"
-                              role="button" aria-expanded="false"
-                              aria-controls="colorFilter">
-                              Колір
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                height="16" fill="currentColor" class="bi
+                                1 0 0 0-.753 1.659z" />
+              </svg>
+            </a>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  32 | XXS (53)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  34 | XS (60)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  36 | S (60)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  38 | M (60)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  40 | L (60)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  42 | XL (58)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  46 | XXL (13)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  48 | XХXL (4)
+                </label>
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <a data-bs-toggle="collapse" href="#colorFilter" role="button" aria-expanded="false"
+              aria-controls="colorFilter">
+              Колір
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                 bi-caret-down" viewBox="0 0 16 16">
-                                <path d="M3.204 5h9.592L8 10.481 3.204
+                <path d="M3.204 5h9.592L8 10.481 3.204
                                   5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506
                                   0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                  1 0 0 0-.753 1.659z"/>
-                                </svg>
-                              </a>
-                            </div>
+                                  1 0 0 0-.753 1.659z" />
+              </svg>
+            </a>
+          </div>
 
-                            <div class="collapse" id="colorFilter">
-                              <div>
-                                <ul>
-                                  <li>
-                                    <input type="checkbox" value="" id="color1">
-                                    <label for="color1">
-                                      білий
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <input type="checkbox" value="" id="color2">
-                                    <label for="color2">
-                                      чорний
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <input type="checkbox" value="" id="color3">
-                                    <label for="color3">
-                                      бежевий
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <input type="checkbox" value="" id="color4">
-                                    <label for="color4">
-                                      зелений
-                                    </label>
-                                  </li>
-                                  <li>
-                                    <input type="checkbox" value="" id="color5">
-                                    <label for="color5">
-                                      синій
-                                    </label>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div>
-                            <a data-bs-toggle="collapse" href="#"
-                              role="button" aria-expanded="false"
-                              aria-controls="collapseExample">
-                              Сезон
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                height="16" fill="currentColor" class="bi
+          <div class="collapse" id="colorFilter">
+            <div>
+              <ul>
+                <li>
+                  <input type="checkbox" value="" id="color1">
+                  <label for="color1">
+                    білий
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" value="" id="color2">
+                  <label for="color2">
+                    чорний
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" value="" id="color3">
+                  <label for="color3">
+                    бежевий
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" value="" id="color4">
+                  <label for="color4">
+                    зелений
+                  </label>
+                </li>
+                <li>
+                  <input type="checkbox" value="" id="color5">
+                  <label for="color5">
+                    синій
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Сезон
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                 bi-caret-down" viewBox="0 0 16 16">
-                                <path d="M3.204 5h9.592L8 10.481 3.204
+              <path d="M3.204 5h9.592L8 10.481 3.204
                                   5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506
                                   0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                  1 0 0 0-.753 1.659z"/>
-                                </svg>
-                              </a>
-                            </div>
-                            <div>
-                              <a data-bs-toggle="collapse" href="#"
-                                role="button" aria-expanded="false"
-                                aria-controls="collapseExample">
-                                Тканина
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                  width="16" height="16" fill="currentColor"
-                                  class="bi bi-caret-down" viewBox="0 0 16 16">
-                                  <path d="M3.204 5h9.592L8 10.481 3.204
+                                  1 0 0 0-.753 1.659z" />
+            </svg>
+          </a>
+        </div>
+        <div>
+          <a data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Тканина
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down"
+              viewBox="0 0 16 16">
+              <path d="M3.204 5h9.592L8 10.481 3.204
                                     5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506
                                     0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                    1 0 0 0-.753 1.659z"/>
-                                  </svg>
-                                </a>
-                              </div>
-                              <div>
-                                <a data-bs-toggle="collapse" href="#"
-                                  role="button" aria-expanded="false"
-                                  aria-controls="collapseExample">
-                                  Рукав
-                                  <svg xmlns="http://www.w3.org/2000/svg"
-                                    width="16" height="16" fill="currentColor"
-                                    class="bi bi-caret-down" viewBox="0 0 16
+                                    1 0 0 0-.753 1.659z" />
+            </svg>
+          </a>
+        </div>
+        <div>
+          <a data-bs-toggle="collapse" href="#" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Рукав
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down"
+              viewBox="0 0 16
                                     16">
-                                    <path d="M3.204 5h9.592L8 10.481 3.204
+              <path d="M3.204 5h9.592L8 10.481 3.204
                                       5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506
                                       0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                      1 0 0 0-.753 1.659z"/>
-                                    </svg>
-                                  </a>
-                                </div>
-                              </div>
-                              <div class="col-10">
-                                <div class="row">
-                                  <div class="col d-flex gap-2
+                                      1 0 0 0-.753 1.659z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="col-10">
+        <div class="row">
+          <div class="col d-flex gap-2
                                     align-items-center">
-                                    <p>
-                                      <svg xmlns="http://www.w3.org/2000/svg"
-                                        width="16" height="16"
-                                        fill="currentColor" class="bi
+            <p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                         bi-grid-fill" viewBox="0 0 16 16">
-                                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5
+                <path d="M1 2.5A1.5 1.5 0 0 1 2.5
                                           1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0
                                           1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8
                                           0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1
@@ -304,14 +263,12 @@
                                           13.5v-3zm8 0A1.5 1.5 0 0 1 10.5
                                           9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0
                                           0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9
-                                          13.5v-3z"/>
-                                        </svg>
-                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                          width="16" height="16"
-                                          fill="currentColor" class="bi
+                                          13.5v-3z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                           bi-grid-3x3-gap-fill" viewBox="0 0 16
                                           16">
-                                          <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0
+                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0
                                             1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0
                                             1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0
                                             1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0
@@ -329,138 +286,120 @@
                                             0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0
                                             1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0
                                             0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0
-                                            1-1-1v-2z"/>
-                                          </svg>
-                                          Сортувати за:
-                                          <a href="*">
-                                            новинками <svg
-                                              xmlns="http://www.w3.org/2000/svg"
-                                              width="16" height="16"
-                                              fill="currentColor" class="bi
+                                            1-1-1v-2z" />
+              </svg>
+              Сортувати за:
+              <a href="*">
+                новинками <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                               bi-caret-down" viewBox="0 0 16
                                               16">
-                                              <path d="M3.204 5h9.592L8 10.481
+                  <path d="M3.204 5h9.592L8 10.481
                                                 3.204 5zm-.753.659 4.796 5.48a1
                                                 1 0 0 0 1.506
                                                 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1
-                                                1 0 0 0-.753 1.659z"/>
-                                              </svg>
-                                            </a>
-                                          </p>
-                                        </div>
-                                        <div class="col d-flex
+                                                1 0 0 0-.753 1.659z" />
+                </svg>
+              </a>
+            </p>
+          </div>
+          <div class="col d-flex
                                           justify-content-end">
-                                          <h1>Жіночі вишиванки</h1>
-                                        </div>
-                                      </div>
+            <h1>Жіночі вишиванки</h1>
+          </div>
+        </div>
 
-                                      <div class="row">
-                                        <div class="col">
-                                          <img src="img/image 2.jpg" alt="">
-                                          <p>Вишиванка з рослинним орнаментом
-                                            Lito</p>
-                                          <p>2 800 грн.</p>
-                                        </div>
-                                        <div class="col">
-                                          <img src="img/image 2.jpg" alt="">
-                                          <p>Вишиванка з рослинним орнаментом
-                                            Lito</p>
-                                          <p>2 800 грн.</p>
-                                        </div>
-                                        <div class="col">
-                                          <img src="img/image 2.jpg" alt="">
-                                          <p>Вишиванка з рослинним орнаментом
-                                            Lito</p>
-                                          <p>2 800 грн.</p>
-                                        </div>
-                                        <div class="col">
-                                          <img src="img/image 2.jpg" alt="">
-                                          <p>Вишиванка з рослинним орнаментом
-                                            Lito</p>
-                                          <p>2 800 грн.</p>
-                                        </div>
-                                      </div>
+        <div class="row">
+          <div class="col">
+            <img src="img/image 2.jpg" alt="">
+            <p>Вишиванка з рослинним орнаментом
+              Lito</p>
+            <p>2 800 грн.</p>
+          </div>
+          <div class="col">
+            <img src="img/image 2.jpg" alt="">
+            <p>Вишиванка з рослинним орнаментом
+              Lito</p>
+            <p>2 800 грн.</p>
+          </div>
+          <div class="col">
+            <img src="img/image 2.jpg" alt="">
+            <p>Вишиванка з рослинним орнаментом
+              Lito</p>
+            <p>2 800 грн.</p>
+          </div>
+          <div class="col">
+            <img src="img/image 2.jpg" alt="">
+            <p>Вишиванка з рослинним орнаментом
+              Lito</p>
+            <p>2 800 грн.</p>
+          </div>
+        </div>
 
-                                      <div class="row">
-                                        <p class="col-2 offset-5">Показати
-                                          більше
-                                          <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="16" height="16"
-                                            fill="currentColor" class="bi
+        <div class="row">
+          <p class="col-2 offset-5">Показати
+            більше
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi
                                             bi-arrow-clockwise" viewBox="0 0 16
                                             16">
-                                            <path fill-rule="evenodd" d="M8 3a5
+              <path fill-rule="evenodd" d="M8 3a5
                                               5 0 1 0 4.546 2.914.5.5 0 0 1
-                                              .908-.417A6 6 0 1 1 8 2v1z"/>
-                                              <path d="M8 4.466V.534a.25.25 0 0
+                                              .908-.417A6 6 0 1 1 8 2v1z" />
+              <path d="M8 4.466V.534a.25.25 0 0
                                                 1 .41-.192l2.36
                                                 1.966c.12.1.12.284 0 .384L8.41
-                                                4.658A.25.25 0 0 1 8 4.466z"/>
-                                              </svg>
-                                            </p>
-                                            <div class="col-2 offset-2 d-flex
+                                                4.658A.25.25 0 0 1 8 4.466z" />
+            </svg>
+          </p>
+          <div class="col-2 offset-2 d-flex
                                               justify-content-end">
-                                              <nav aria-label="Page navigation
+            <nav aria-label="Page navigation
                                                 example">
-                                                <ul class="pagination">
-                                                  <li class="page-item"><a
-                                                      class="page-link"
-                                                      href="#">1</a></li>
-                                                  <li class="page-item"><a
-                                                      class="page-link"
-                                                      href="#">2</a></li>
-                                                  <li class="page-item"><a
-                                                      class="page-link"
-                                                      href="#">3</a></li>
-                                                  <li class="page-item"><p
-                                                      class="page-link">...</p></li>
-                                                  <li class="page-item"><a
-                                                      class="page-link"
-                                                      href="#">6</a></li>
-                                                  <li class="page-item"><a
-                                                      class="page-link"
-                                                      href="#">Наступна</a></li>
-                                                </ul>
-                                              </nav>
-                                            </div>
-                                          </div>
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <p class="page-link">...</p>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">6</a></li>
+                <li class="page-item"><a class="page-link" href="#">Наступна</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
 
-                                        </div>
-                                      </div>
+      </div>
+    </div>
 
-                                      <!----Footer-->
-                                      <div class="row">
-                                        <div class="col-1">
-                                          <ul>
-                                            <li>Про нас</li>
-                                            <li>Команда</li>
-                                            <li>Блог</li>
-                                            <li>Drabyna</li>
-                                          </ul>
-                                        </div>
-                                        <div class="col-2">
-                                          <ul>
-                                            <li>Цікава інформація</li>
-                                            <li>Вакансії</li>
-                                            <li>Доставка та оплата</li>
-                                            <li>Етнодім Маніфест</li>
-                                          </ul>
-                                        </div>
-                                        <div class="col-3 offset-2">
-                                          <p>Контакти</p>
-                                          <p>+38 097 888 92 92</p>
-                                          <p>Україна, м. Київ, вул. Верхній Вал
-                                            58/28</p>
-                                          <p>пн-пт 10:00-20:00 сб-нд 11:00-19:00</p>
-                                        </div>
-                                        <div class="col-2 offset-1">
-                                          <p>Соціальні мережі</p>
-                                          <a href=""><svg width="22" height="22"
-                                              viewBox="0 0 22 22"
-                                              fill="none"
-                                              xmlns="http://www.w3.org/2000/svg">
-                                              <path d="M18.3333
+    <!----Footer-->
+    <div class="row">
+      <div class="col-1">
+        <ul>
+          <li>Про нас</li>
+          <li>Команда</li>
+          <li>Блог</li>
+          <li>Drabyna</li>
+        </ul>
+      </div>
+      <div class="col-2">
+        <ul>
+          <li>Цікава інформація</li>
+          <li>Вакансії</li>
+          <li>Доставка та оплата</li>
+          <li>Етнодім Маніфест</li>
+        </ul>
+      </div>
+      <div class="col-3 offset-2">
+        <p>Контакти</p>
+        <p>+38 097 888 92 92</p>
+        <p>Україна, м. Київ, вул. Верхній Вал
+          58/28</p>
+        <p>пн-пт 10:00-20:00 сб-нд 11:00-19:00</p>
+      </div>
+      <div class="col-2 offset-1">
+        <p>Соціальні мережі</p>
+        <a href=""><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.3333
                                                 2.75H3.66667C3.42355 2.75
                                                 3.19039
                                                 2.84658 3.01849 3.01849C2.84658
@@ -487,14 +426,12 @@
                                                 19.1534
                                                 3.19039 18.9815 3.01849C18.8096
                                                 2.84658 18.5764 2.75
-                                                18.3333 2.75Z" fill="#DA1F39"/>
-                                              </svg>
-                                            </a>
-                                            <a href=""><svg width="21"
-                                                height="22" viewBox="0 0 21
-                                                22" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M19.601 6.91055C19.4907
+                                                18.3333 2.75Z" fill="#DA1F39" />
+          </svg>
+        </a>
+        <a href=""><svg width="21" height="22" viewBox="0 0 21
+                                                22" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19.601 6.91055C19.4907
                                                   6.51614 19.2804
                                                   6.15691 18.9905
                                                   5.86762C18.7006 5.57834
@@ -535,17 +472,16 @@
                                                   8.42877 19.601
                                                   6.91055ZM8.60717
                                                   14.3514V8.65439L13.5644
-                                                  11.5091L8.60717 14.3514Z"
-                                                  fill="#DA1F39"/>
-                                                </svg>
-                                              </a>
-                                              <p>© «Етнодім» 2009-2021</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <script
-                                          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-                                          integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-                                          crossorigin="anonymous"></script>
-                                      </body>
-                                    </html>
+                                                  11.5091L8.60717 14.3514Z" fill="#DA1F39" />
+          </svg>
+        </a>
+        <p>© «Етнодім» 2009-2021</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

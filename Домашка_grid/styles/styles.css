@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-l {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-m {
+    max-width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-pic {
+    background: url(../images/pexels-tima-miroshnichenko-5428267\ 1.png);
+    background-position: center;
+    background-size: cover;  
+    max-height: 570px;
+}
+
+.main-pic-container {
+    color: azure;
+    padding-top: 150px;
+    padding-bottom: 20%;
+}
+
+.main-pic-text {
+    color: azure;
+    margin-bottom: 30px;
+}
+
+.main-pic-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 42px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: azure;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 400px;
+}
+
+
+@media (max-width: 768px) {
+    .main-pic-container {
+        color: azure;
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+    .main-pic-title {
+        font-size: 28px;
+    }
+
+    .blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 998px) {
+    .blocks {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 560px) {
+    .blocks {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.block:hover {
+    background-color: #0536FC;
+    color: #FFFFFF;
+}
+
+.block:hover p {
+    background-color: #0536FC;
+    color: #FFFFFF;
+}
+
+.block:hover a {
+    background-color: #ffffff;
+}
+
+.block {
+    border-right: 1px solid #B4C5C8;
+    position: relative;
+    padding-bottom: 75px;
+    text-size-adjust: 130%;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.svg-block {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+}
+
+.svg-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.block a img {
+    margin: 25px;
+}
+
+.block p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #000000;
+}
+
+.block h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+
+ 

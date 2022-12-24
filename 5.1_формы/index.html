@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>checkbox</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-1 container-1">
+        <div class="header">
+          <p>(Booking)</p>
+          <h1>Send an email</h1>
+        </div>
+        <div class="section-1-text">
+          <p>If you have a general or project enquiry, please <br> drop me an email — available now</p>
+        </div>
+      </section>
+      
+      <section>
+        <form action="data.html" method="get">
+          <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" required placeholder="Your email">
+          </div>
+          <div>
+            <label for="username">Name</label>
+            <br>
+            <input type="text" name="username" id="username" placeholder="Your name" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <br>
+            <input type="text" name="message" id="message" placeholder="Start typing here" required>
+          </div>
+          <div>
+            <label for="project">Project type</label>
+            <br>
+            <select name="project" id="project">
+            <option value="1">Reserve for personal event</option>
+            <option value="2">Buy tickets for a next concert</option>
+            <option value="3">Reserve from a venue</option>
+            <option value="4">Other</option>
+            </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox" id="checkbox" required>
+          <label for="checkbox">I agree to receive ocasional newsletter with latest news and updates</label>
+      </div>
+      <div class="button-wrapper">
+          <button><svg width="84" height="3" viewBox="0 0 84 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M42.672 0.903998C22.704 0.903998 5.52 0.615999 0.72 0.328C0.0480001 0.808 0.0480001 2.248 0.816 2.632C6 2.344 21.744 1.96 42.48 1.96C63.216 1.96 77.808 2.248 83.184 2.632C83.856 2.248 83.856 0.808 83.088 0.328C78.384 0.615999 62.736 0.903998 42.672 0.903998Z" fill="#D0A049"/>
+            </svg> Send</button> 
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

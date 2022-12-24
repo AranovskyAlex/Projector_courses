@@ -1,0 +1,311 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 15px;
+}
+
+.upbar {
+    background: #00394B;
+    border-bottom: 1px solid #FFFFFF;
+    height: 100px;
+}
+
+.upbar-wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.upbar-logo-wrap {
+  border-right: 1px solid #FFFFFF;
+  padding-right: 40px;
+  display: flex;
+  height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none; 
+}
+
+.logo span {
+  color: white;
+}
+
+.navigation {
+  margin-left: 40px;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 25px;
+  list-style: none;
+}
+
+.navigation a {
+    text-decoration: none;
+  color: #ffffff
+}
+
+.capital {
+    color: #FFFFFF;
+}
+
+.b1 {
+  margin-left: auto;
+}
+
+.action-button {
+    border-radius: 100px;
+    background-color: transparent;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 12px 24px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.s1 {
+    padding-top: 16px;
+    background: #00394B;
+    padding-bottom: 78px;
+}
+
+.wrapper-s1 {
+  position:relative;
+}
+
+.info1 {
+    max-width: 490px;
+    padding-top: 134px;
+}
+
+.s1-link-wrap {
+  margin-top:40px;
+}
+
+.s1 h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.s1 a{
+    margin-top: 80px; 
+}
+
+.s1 p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.info1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.b2 {
+    background-color: #D82222;
+    color: #FFFFFF;
+    border: 1px solid #D82222;
+}
+
+.let span {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+color: #FF4300;
+}
+
+.let ul {
+    list-style-type: none;
+}
+
+.let li 
+{
+    border-bottom: 1px solid #CFDCE8;
+    margin-bottom: 40px; 
+    padding-bottom: 40px;
+}
+summary {
+    color: #4199BD;
+}
+
+.s1-img-wrap {
+  position: absolute;
+  top: 50px;
+  right: 16px;
+}
+
+.wrapper-s2 {
+  margin-top: 200px;
+  display:flex;
+  margin-bottom: 200px;
+}
+
+.let {
+    width:50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.property {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 568px;  
+}
+
+.property header p {
+  font-size:20px;
+}
+
+.property header span {
+  color:orange; font-size:30px;
+}
+
+.property header h2 {
+  font-weight: 500; font-size: 64px;
+}
+
+.wrapper-s2-p {
+  font-family: 'Montserrat'; font-style: normal; font-size: 22px; line-height: 36px;
+}
+
+.advantages {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 1170px;
+    padding-left: 50px;
+}
+
+.advantages li {
+border: 1px solid #489FF4;
+border-radius: 100px;
+padding: 8px;
+
+}
+.advantages ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.advantages header {
+    width: 500px;
+}
+
+.s3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.s3 ul {
+    display: flex;
+    gap: 150px;
+    list-style-type: none;
+    border-bottom: 1px solid #CFDCE8;
+    padding-bottom: 15px;
+}
+
+.pros_cons {
+   display: flex;
+   gap: 45px;
+   justify-content: center;
+   width: 56%;
+}
+
+.pros_cons h3 {
+    text-align: center
+}
+
+.adv {
+    width: 568px;
+    height: 578px;
+    background-color: #022733;
+}
+
+
+.dis {
+    width: 568px;
+    height: 578px;
+    background-color: #022733;
+}
+
+.s4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s4 header {
+    margin-left: -200px;
+}
+
+.s4 ol {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    width: 700px;
+}
+
+.steps li {
+   width: 300px;
+}
+
+.niz {
+    margin-top: 100px;
+}
+
+.cb {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    width: 1750px;
+    padding-left: 100px;
+}
+
+.bb {
+width: 760px;
+}
+
+.policy p {
+   padding-left: 450px;
+}
+
+.s4{
+ color: 
+ #00274B;   
+ background-color: #FFFFFF;
+}
+footer {
+    color: #FFFFFF;
+}
+

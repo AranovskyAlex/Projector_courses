@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Tomorrow', Arial, Helvetica, sans-serif; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+
+.section-2-text {
+  width: 66%;
+}
+
+.section-2-img-wrap {
+  width: 25%;
+}
+
+.section-3-text {
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .container-4 h2 {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #000000;
+  }
+
+  .container-4 {
+    display: flex;
+    gap: 20px;
+    padding-top: 122px;
+    padding-bottom: 122px;
+    justify-content: space-between;
+  }
+
+  .container-4 figure {
+    width: 50%;
+  }
+
+  .container-4-text {
+    width: 40%;
+  }
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.header-logo {
+  display: block;
+}
+
+nav {
+    display: flex;
+}
+
+.header-navigation-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+.header-button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/*Section 1*/
+
+.section-1{
+  background: url(../images/section1-bg.jpg);
+  background-size: cover; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-1-container {
+  padding-top: 30px;
+}
+
+.section-1-image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.section-1-container span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/*Section 1*/
+
+/*Section 2*/
+
+.section-2-text {
+font-family: 'Sintony';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 140%;
+text-transform: uppercase;
+}
+
+.section-2-container {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  gap: 32px;
+}
+
+/*Section 3*/
+
+.section-3 {
+  background: url(../images/section2-bg.jpg);
+  background-size: cover;
+}
+
+/*Section 3*/
+
+.container-4 p {
+  font-family: 'Sintony';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 160%;
+  color: #000000;
+}
+
+.container-4 p {
+  font-family: 'Sintony';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #000000;
+} 
+
+@media screen and (max-width: 767px) {
+  .header-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-logo-link {
+    width: 140px;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .desktop-hidden-bottom {
+    padding-bottom: 50px;
+  }
+
+  .section-1 {
+    font-size: 24px;
+  }
+
+   .section-2-container {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+   }
+
+   .section-2-img-wrap {
+    width: 100%;
+   }
+
+   .section-2-text p {
+    font-size: 20px;
+    line-height: 140%;
+    text-transform: uppercase;
+   }
+
+   .section-2-text {
+    width: 100%;
+   }
+
+   .section-3-text {
+      font-size: 24px;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+   
+   .container-4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+
+  .container-4 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+  }
+  
+  .container-4 p {
+    font-size: 24px;
+    line-height: 160%;
+  }  
+
+  .container-4 figure {
+    width: 100%;
+  }
+
+  .container-4-text {
+    width: 100%;
+  }
+}
+

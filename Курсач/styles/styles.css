@@ -1,10 +1,28 @@
 .link-active{
-    color: red;
+    color: #DA1F39;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav-item {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
 }
 
 .link-mobile a {
     text-decoration: none;
     color: black;
+}
+
+.dropdown a[aria-expanded="true"] svg {
+    transform: rotate(180deg);
 }
 
 .breadcrumb-item a{
@@ -16,6 +34,149 @@
     color: grey;
 }
 
-.filter-group:checked {
-    transform: rotate(180deg)
+.filterGroup[aria-expanded="true"] label svg{
+    transform: rotate(180deg);
+}
+
+.filterGroup {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 166.4%;
+    color: #000000;
+}
+
+.filterGroup:hover {
+    color: #000000;
+}
+
+.filterOptions label {
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20p;
+    color: #565656;
+}
+
+.form-check-label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #565656;
+}
+
+.sorting-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.layout-button {
+    color: #C4C4C4;
+}
+
+.layout-button.active {
+    color: #565656;
+}
+
+.breadcrumb-item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 166.4%;
+}
+
+.breadcrumb-item.active {
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.category-title {
+    font-family: 'Dela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 140.3%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer {
+    background-color: #F4F4F4;
+}
+
+.footer-contacts p{
+    margin-bottom: 5px;
+}
+
+.footer-pic {
+    margin-top: 70px;
+}
+
+.footer-socials a{
+    text-decoration: none;
+}
+
+.page-list a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 166.2%;
+    color: #000000;
+}
+
+.page-list a.active {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 166.2%;
+    color: #B0B0B0;
+}
+
+.main-content {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166.19%;
+    color: #000000;
+}
+
+.show-more {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer ul {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 166.19%;
+        color: #000000;
+}
+
+.footer p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 166.19%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
 }

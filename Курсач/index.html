@@ -18,12 +18,19 @@
         <div class="container-fluid px-0">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span>
+              <svg width="20" height="9" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="20" height="1" fill="black" />
+                <rect y="4" width="20" height="1" fill="black" />
+                <rect y="8" width="10" height="1" fill="black" />
+              </svg>
+
+            </span>
           </button>
           <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
             <ul class="navbar-nav gap-3">
               <li class="nav-item"><a href="#" class="nav-link link-active ps-0">Каталог</a></li>
-              <li class="nav-item"><a href="#" class="nav-link text-black">Знижки</a></li>
+              <li class="nav-item"><a href="test.html" class="nav-link text-black">Знижки</a></li>
               <li class="nav-item"><a href="#" class="nav-link text-black">Блог</a></li>
               <li class="nav-item"><a href="#" class="nav-link text-black">Про нас</a></li>
               <li class="nav-item dropdown">
@@ -32,8 +39,8 @@
           <div>
             <a href="*"><img src="img/logo.jpg" width="184" height="48" alt="logo"></a>
           </div>
-          <ul class="navbar-nav align-items-center gap-2">
-            <li class="nav-item dropdown d-none d-md-block">
+          <ul class="navbar-nav align-items-center gap-2 flex-row">
+            <li class="nav-item dropdown d-none d-lg-block">
               <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 UA
                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +53,7 @@
                 <li><a class="dropdown-item text-black" href="#">RU</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown d-none d-md-block">
+            <li class="nav-item dropdown d-none d-lg-block">
               <a class="nav-link text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 ₴
                 <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +66,7 @@
                 <li><a class="dropdown-item text-black" href="#">€</a></li>
               </ul>
             </li>
-            <li class="nav-item d-none d-md-block">
+            <li class="nav-item d-none d-lg-block">
               <a href="tel:" class="nav-item link-mobile text-black text-decoration-none ">+38 097 888 92 92</a>
             </li>
             <li class="nav-item">
@@ -94,7 +101,7 @@
         </div>
       </nav>
 
-      <div class="py-3" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'—';">
+      <div class="py-3 d-none d-lg-block" aria-label="breadcrumb" style="--bs-breadcrumb-divider:'—';">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#"><b>Головна</b></a></li>
           <li class="breadcrumb-item"><a href="#"><b>Жінкам</b></a></li>
@@ -106,7 +113,7 @@
 
 
     <div class="row">
-      <div class="col-2 pt-4">
+      <div class="col-2 pt-4 d-none d-lg-block">
         <div>
           <div>
             <a class="filterGroup" data-bs-toggle="collapse" href="#collapseSize" aria-expanded="false"
@@ -262,17 +269,17 @@
         </div>
       </div>
 
-      <div class="col-10">
+      <div class="col-lg-10">
         <div class="row pb-4 align-items-baseline">
           <div class="col d-flex gap-2 sorting-text">
             <p>
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-                class="bi  bi-grid-fill layout-button active" viewBox="0 0 16 16">
+                class="bi  bi-grid-fill layout-button active d-none d-lg-inline-flex" viewBox="0 0 16 16">
                 <path
                   d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z" />
               </svg>
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-                class="bi bi-grid-3x3-gap-fill me-1 layout-button" viewBox="0 0 16 16">
+                class="bi bi-grid-3x3-gap-fill me-1 layout-button d-none d-lg-inline-flex" viewBox="0 0 16 16">
                 <path
                   d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z" />
               </svg>
@@ -290,41 +297,41 @@
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6 main-content">
+        <div class="row  main-content">
+          <div class="col-6">
             <img class="img-fluid" src="img/image_2.jpg" width="100%" alt="">
             <p class="mt-3">Вишиванка з рослинним орнаментом Lito</p>
             <p><b>2 800 грн.</b></p>
           </div>
-          <div class="col-md-6">
+          <div class="col-6">
             <img class="img-fluid" src="img/image_2.jpg" width="100%" alt="">
             <p class="mt-3">Вишиванка блакитного кольору з рослинним орнаментом Fialka</p>
             <p><b>3 400 грн.</b></p>
           </div>
-          <div class="col-md-6 mt-5">
+          <div class="col-6 mt-5">
             <img class="img-fluid" src="img/image_3.jpg" width="100%" alt="">
             <p class="mt-3">Лляна вишиванка з геометричним орнаментом Nezalezhni</p>
             <p><b>4 200 грн.</b></p>
           </div>
-          <div class="col-md-6 mt-5">
+          <div class="col-6 mt-5">
             <img class="img-fluid" src="img/image_4.jpg" width="100%" alt="">
             <p class="mt-3">Вишиванка з рослинним орнаментом Kashtan</p>
             <p><b>3 800 грн.</b></p>
           </div>
-          <div class="col-md-6 mt-5">
+          <div class="col-6 mt-5">
             <img class="img-fluid" src="img/image_5.jpg" width="100%" alt="">
             <p class="mt-3">Легка блузка вільного крою з орнаментом Indi</p>
             <p><b>3 800 грн.</b></p>
           </div>
-          <div class="col-md-6 mt-5">
+          <div class="col-6 mt-5">
             <img class="img-fluid" src="img/image_6.jpg" width="100%" alt="">
             <p class="mt-3">Біла вишиванка вільного крою Svitanok</p>
             <p><b>2 980 грн.</b></p>
           </div>
         </div>
 
-        <div class="row mt-5 align-items-baselines">
-          <a class="col-2 offset-5 show-more">Показати більше
+        <div class="row mt-5 align-items-baselines mb-5">
+          <a class="col-lg-2 col-6 offset-3 offset-lg-5 show-more text-center">Показати більше
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
               class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z" />
@@ -352,12 +359,20 @@
 
   <!----Footer-->
   <div class="footer">
+    <div class="arrow">
+      <a href="#">
+        <svg width="32" height="58" viewBox="0 0 32 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.5 57.5V1M16.5 1L31 15.5M16.5 1L1 15.5" stroke="#DA1F39" />
+        </svg>
+      </a>
+
+    </div>
     <div class="container">
       <div class="row">
         <div class="text-center footer-pic">
           <img src="img/logo-bottom.png">
         </div>
-        <div class="offset-2 col-1 mt-5 ms-3">
+        <div class="col-3 col-lg-1 mt-5">
           <ul class="list-unstyled">
             <li>Про нас</li>
             <li>Команда</li>
@@ -365,7 +380,7 @@
             <li class="pt-5 text-danger">Drabyna</li>
           </ul>
         </div>
-        <div class="col-2 mt-5">
+        <div class="col-5 col-lg-2 mt-5">
           <ul class="list-unstyled">
             <li>Цікава інформація</li>
             <li>Вакансії</li>
@@ -373,9 +388,9 @@
             <li class="pt-5 text-danger">Етнодім Маніфест</li>
           </ul>
         </div>
-        <div class="col-2 offset-1 mt-5 footer-socials">
+        <div class="col-4 col-lg-2 offset-lg-1 mt-5 footer-socials order-lg-3">
           <p class="text-decoration-underline mb-0">Соціальні мережі</p>
-          <div class="d-flex gap-2 mb-5">
+          <div class="d-flex flex-wrap gap-2 mb-5">
             <a href="">
               <img src="img/FB_img.png" width="22" height="22">
             </a>
@@ -394,7 +409,7 @@
           </div>
           <p>© «Етнодім» 2009-2021</p>
         </div>
-        <div class="col-3 offset-2 mt-5 footer-contacts">
+        <div class="col-12 col-lg-3 offset-lg-2 mt-5 footer-contacts order-lg-2">
           <p class="text-decoration-underline">Контакти</p>
           <p>+38 097 888 92 92</p>
           <p>Україна, м. Київ, вул. Верхній Вал 58/28</p>
